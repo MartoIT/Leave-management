@@ -1,0 +1,179 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+font-family: 'PT Sans', sans-serif;
+}
+.welcome2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'PT Serif', serif;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    background-color: #567C8D;
+}
+
+.welcome4{
+    background-color: #F5EFEB;
+}
+
+.tel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+  
+}
+ .tel > svg {
+    height: 62px;
+    width: 62px;
+    padding-left: 20px;
+    
+ }
+ .telnumber {
+    padding-left: 1.2em;
+ }
+
+ .header-h4{
+    font-size: 32px;
+  
+ }
+ .social{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    gap: 0.4em;
+    padding-right: 2em;
+   
+   
+}
+
+
+.ofice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    background: url("./resources/StockCake-Planning\ work\ strategy_1727262120.jpg");
+    background-position: center;
+    background-size: 100%;
+}
+
+
+.site-form {
+    
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    text-align: center;
+    background: #C8D9E6;
+    opacity: 0.6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+   border-radius: 20px;
+   width: 650px;
+    
+  }
+  .site-form-container{
+    display: flex;
+    flex-direction: row;
+   flex-wrap: nowrap;
+  
+   
+  }
+
+  .site-form-container > form{
+    
+    box-sizing: border-box;
+  }
+  
+ 
+
+  .entry-title {
+    font-weight: 400;
+    font-size: 2.5rem;
+    border: 5px solid #C8D9E6 ;
+   background-color:#C8D9E6 ;
+   border-radius: 8px;
+   margin-left: 12px;
+    padding: 0;
+    padding-left: 20px;
+  }
+
+  .site-form button {
+    background: #C8D9E6;
+   margin-top: 12px;
+    margin-right: 60px;
+    margin-left: 72px;
+    border-radius: 8px;
+    display: flex;
+   
+  }
+  .button:hover {background-color: #3e8e41}
+  .home-footer{
+    background:   #567C8D;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PT Serif', serif;
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+
+  
