@@ -2,11 +2,16 @@
 .department-members{
     display: flex;
     flex-direction: column;
+    flex-basis: 50%;
+    max-width: 80%;
     align-items: center;
     flex-wrap: nowrap;
     gap: 1em;
     padding-bottom: 4em;
-    background-color: #567C8D
+    background-color: #567C8D;
+    border-radius: 8px;
+    
+    
 }
 
 .department-h1{
@@ -38,4 +43,16 @@
 .employee-days-left{
     font-size: 18px;
     color: #D22B27;
+}
+
+.home-footer{
+    background:   #567C8D;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PT Serif', serif;
+    /* padding-top: 3.2em;
+    padding-bottom: 3.2em; */
 }
