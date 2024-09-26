@@ -51,9 +51,60 @@ h6 {
    padding-right: 1em;
 }
 
+.social2-ul{
+    list-style-type: none;
+    display: flex;
+   flex-direction: row;
+   gap: 25%;
+   padding-right: 1em;
+}
+.social2-ul-li{
+    border-radius: 8px;
+    
+}
+.social2-ul-li:hover {background-color: #5093b3}
+
 .container{
 display: flex;
 flex-direction: column;
 justify-content: center;
 font-family: 'PT Sans', sans-serif;
+width: 100%;
+    height: 43em;
+    background: url("./resources/pexels-rdne-7310202.jpg");
+    background-position: center;
+    background-size: 100%;
 }
+
+.manager-panel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 22em;
+    margin-top: -21em;
+    
+}
+
+.manager-ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items:flex-start;
+    height: 100%;
+    list-style-type: none;
+    background-color: #C8D9E6;
+    margin-left: -1.8em;
+    border-radius: 8px;
+}
+
+.manager-nav-li {
+    /* border: 1px solid black; */
+    border-radius: 8px;
+   padding-top: 0.8em;
+   padding-bottom: 0.8em;
+   padding-left: 1em;
+   padding-right: 1em;
+}
+
+.manager-nav-li:hover {background-color: #567C8D}
