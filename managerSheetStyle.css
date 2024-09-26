@@ -84,11 +84,16 @@ width: 100%;
     margin-top: -21em;
     
 }
-
-.manager-ul{
+.manager-nav{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content:flex-start;
+}
+.manager-ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     justify-content:space-around;
     align-items:flex-start;
     height: 100%;
@@ -98,6 +103,7 @@ width: 100%;
     border-radius: 8px;
 }
 
+
 .manager-nav-li {
     /* border: 1px solid black; */
     border-radius: 8px;
@@ -106,5 +112,16 @@ width: 100%;
    padding-left: 1em;
    padding-right: 1em;
 }
-
+.bell {
+    height: 2.5em;
+    width: 2.5em;
+    
+}
+.li-with-bell{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7em;
+}
 .manager-nav-li:hover {background-color: #567C8D}
