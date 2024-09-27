@@ -46,15 +46,28 @@
     display: flex;
     flex-direction: row;
     justify-content:space-around;
+    margin-bottom: 3em;
+    margin-top: 1.2em;
+    padding-right: 1em;
 }
 .department-h1{
     font-family: 'PT Sans', sans-serif;
     font-size: 1.8em;
-    margin-left: 18em;
+    /* margin-left: 18em;
     padding-top: 0.7em;
-    padding-bottom: 0.7em;
+    padding-bottom: 0.7em; */
+    flex: 0 0 33.3333%
 }
-
+.space-p{
+    flex: 0 0 33.3333%
+}
+.spec-a{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+    flex: 0 0 33.3333%
+}
 .service-img > img {
     border-radius: 8px;
     
