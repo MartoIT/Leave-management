@@ -60,8 +60,15 @@ h6 {
 }
 .social2-ul-li{
     border-radius: 8px;
+    height: auto;
     
 }
+
+.social2 > a, .social2 > svg{
+    border-radius: 8px;
+}
+.social2 > svg:hover {background-color:  #F5EFEB}
+.social2 > a:hover {background-color:  #F5EFEB}
 .social2-ul-li:hover {background-color:  #F5EFEB}
 
 .container{
