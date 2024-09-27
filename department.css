@@ -35,22 +35,34 @@
     border-radius: 8px;
 }
 
-.position{
-    
-}
+
 
 .employee-days-left{
     font-size: 18px;
     color: #D22B27;
 }
 
-.service-img{
-    
-   
+.h1-and-exit{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
 }
+.department-h1{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.8em;
+    margin-left: 18em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+}
+
 .service-img > img {
     border-radius: 8px;
     
+}
+.onFocus{
+    transform: scale(1.12);
+    
+   
 }
 
 .employee-info{
