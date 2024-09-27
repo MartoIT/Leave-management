@@ -105,6 +105,12 @@ padding-bottom: 2em;
   
 }
 
+.social2 > a, .social2 > svg{
+    border-radius: 8px;
+}
+.social2 > svg:hover {background-color:  #F5EFEB}
+.social2 > a:hover {background-color:  #F5EFEB}
+
 .home-footer{
     background:   #567C8D;
     color: black;
