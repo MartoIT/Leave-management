@@ -191,3 +191,5 @@ width: 100%;
     
 }
 
+.approve-bnt:hover {background-color: rgb(42, 226, 36);}
+.decline-btn:hover {background-color: rgb(231, 12, 12);}

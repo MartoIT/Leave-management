@@ -68,16 +68,25 @@
 .employee-info{
     display: flex;
   flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
+ 
+padding-left: 1em;
+padding-bottom: 2em;
+  flex-wrap: nowrap;
   width: 100%;
 }
 
+.employee-location-left-side > p {
+    text-align: left;
+    color: #567C8D;
+}
+.employee-location-left-right > p {
+    text-align: right;
+    
+}
 .employee-ID, .employee-location, .employee-birthday, .employee-email, .employee-phone {
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
-   
+
     flex-wrap: wrap;
     gap: 1em;
   
