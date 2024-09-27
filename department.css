@@ -2,29 +2,21 @@
 .department-members{
     display: flex;
     flex-direction: column;
-    flex-basis: 50%;
-    max-width: 80%;
-    align-items: center;
-    flex-wrap: nowrap;
-    gap: 1em;
-    padding-bottom: 4em;
+    width: 75%;
+    justify-content: space-evenly;
     background-color: #567C8D;
     border-radius: 8px;
     
     
 }
 
-.department-h1{
-    font-size: 18px;
-    color: #D22B27;
-}
 
 .department-card-holder{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    gap: 14em;
-    justify-content:space-evenly;
+    width: 100%;
+    
    
 }
 
@@ -33,16 +25,50 @@
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+    background-color: #C8D9E6;
+    width: 30%;
     gap: 1em;
+    padding-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 8px;
 }
 
-.employee-name{
-    font-size: 18px;
+.position{
+    
 }
 
 .employee-days-left{
     font-size: 18px;
     color: #D22B27;
+}
+
+.service-img{
+    
+   
+}
+.service-img > img {
+    border-radius: 8px;
+    
+}
+
+.employee-info{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.employee-ID, .employee-location, .employee-birthday, .employee-email, .employee-phone {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+   
+    flex-wrap: wrap;
+    gap: 1em;
+  
 }
 
 .home-footer{
