@@ -169,10 +169,10 @@ font-family: 'PT Sans', sans-serif;
     
    
   }
-  .button.button.button-primary{
+  .button-primary{
     text-decoration: none;
   }
-  .button:hover {background-color: #567C8D}
+  .button-primary:hover {background-color: #567C8D}
   .home-footer{
     background:   #567C8D;
     color: black;

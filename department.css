@@ -111,7 +111,7 @@ padding-bottom: 2em;
 .social2 > svg:hover {background-color:  #F5EFEB}
 .social2 > a:hover {background-color:  #F5EFEB}
 
-.home-footer{
+.home-footer-dep{
     background:   #567C8D;
     color: black;
     display: flex;
@@ -119,6 +119,8 @@ padding-bottom: 2em;
     justify-content: center;
     align-items: center;
     font-family: 'PT Serif', serif;
+    padding-top: 3.2em;
+    padding-bottom: 3.2em;
     /* padding-top: 3.2em;
     padding-bottom: 3.2em; */
 }

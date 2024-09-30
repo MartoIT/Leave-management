@@ -71,7 +71,7 @@ h6 {
 .social2 > a:hover {background-color:  #F5EFEB}
 .social2-ul-li:hover {background-color:  #F5EFEB}
 
-.container{
+.container-manager{
 display: flex;
 flex-direction: column;
 justify-content: center;
