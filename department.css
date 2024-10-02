@@ -11,7 +11,7 @@
         background: url("./resources/pexels-rdne-7310202.jpg");
         background-position: center;
         background-size: 100%;
-    
+        padding-top: 1em;
        
     }
 
@@ -21,7 +21,7 @@
         flex-direction: row;
         flex-wrap: nowrap;
         height: 22em;
-        margin-top: 0em;
+        margin-top: -1em;
         
     }
 
