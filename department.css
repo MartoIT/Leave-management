@@ -7,7 +7,7 @@
     
     font-family: 'PT Sans', sans-serif;
     width: 100%;
-        height: 43em;
+        height: 46em;
         background: url("./resources/pexels-rdne-7310202.jpg");
         background-position: center;
         background-size: 100%;
@@ -21,14 +21,14 @@
         flex-direction: row;
         flex-wrap: nowrap;
         height: 22em;
-        margin-top: -1em;
+       
         
     }
 
 .department-members{
     display: flex;
     flex-direction: column;
-    width: 75%;
+    width: 65%;
     justify-content: space-evenly;
     background-color: #567C8D;
     border-radius: 8px;
@@ -42,7 +42,9 @@
     flex-direction: row;
     flex-wrap: nowrap;
     width: 100%;
-    
+    padding-bottom: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
    
 }
 
@@ -79,9 +81,6 @@
 .department-h1{
     font-family: 'PT Sans', sans-serif;
     font-size: 1.8em;
-    /* margin-left: 18em;
-    padding-top: 0.7em;
-    padding-bottom: 0.7em; */
     flex: 0 0 33.3333%
 }
 .space-p{
@@ -137,7 +136,7 @@ padding-bottom: 2em;
 .social2 > svg:hover {background-color:  #F5EFEB}
 .social2 > a:hover {background-color:  #F5EFEB}
 
-.home-footer-dep{
+/* .home-footer-dep{
     background:   #567C8D;
     color: black;
     display: flex;
@@ -147,6 +146,5 @@ padding-bottom: 2em;
     font-family: 'PT Serif', serif;
     padding-top: 3.2em;
     padding-bottom: 3.2em;
-    /* padding-top: 3.2em;
-    padding-bottom: 3.2em; */
-}
+   
+} */

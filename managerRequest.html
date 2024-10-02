@@ -6,6 +6,7 @@
     <title>Manager Sheet</title>
     <link rel="stylesheet" type="text/css" href="./managerRequest.css" />
     <link rel="stylesheet" type="text/css" href="./homePagestyle.css" />
+    <script src="sricpt.js"></script>
 </head>
 <body>
     <header class="welcome2">
@@ -54,57 +55,62 @@
             
             <div class="table_component" role="region" tabindex="0">
                 
-                <table>
+                <table class="table-request">
                    
                     <thead>
                        
                         <tr>
-                            <th>Employee</th>
-                            <th>Departmnet</th>
-                            <th>Type of leave</th>
-                            <th>From date</th>
-                            <th>To date</th>
-                            <th>Days</th>
+                            <th class="table-th">Employee</th>
+                            <th class="table-th">Departmnet</th>
+                            <th class="table-th">Type of leave</th>
+                            <th class="table-th">Remaining days</th>
+                            <th class="table-th">From date</th>
+                            <th class="table-th">To date</th>
+                            <th class="table-th">Days</th>
                             <th class="exit-table">Action  </th>
                             
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>John Wick John Wick</td>
-                            <td>Sales </td>
-                            <td>Family vacation</td>
-                            <td>25.09.2024</td>
-                            <td>30.09.2024</td>
-                            <td>5</td>
-                            <td><button class="approve-bnt">Approved</button> <button class="decline-btn" >Decline</button></td>
+                            <td class="table-td">John Wick John Wick</td>
+                            <td class="table-td">Sales </td>
+                            <td class="table-td">Family vacation</td>
+                            <td class="table-td">11 days</td>
+                            <td class="table-td">25.09.2024</td>
+                            <td class="table-td">30.09.2024</td>
+                            <td class="table-td">5</td>
+                            <td class="btn-apr-decl"><button class="approve-bnt" onclick="removeRow(event)">Approved</button> <button class="decline-btn" onclick="removeRow(event)">Decline</button></td>
                         </tr>
                         <tr>
-                            <td>Hugh Jackman</td>
-                            <td>Account Department</td>
-                            <td>Family vacation</td>
-                            <td>10.04.2024</td>
-                            <td>12.04.2024</td>
-                            <td>2</td>
-                            <td><button class="approve-bnt">Approved</button> <button class="decline-btn">Decline</button></td>
+                            <td class="table-td">Hugh Jackman</td>
+                            <td class="table-td">Account Department</td>
+                            <td class="table-td">Family vacation</td>
+                            <td class="table-td">6 days</td>
+                            <td class="table-td">10.04.2024</td>
+                            <td class="table-td">12.04.2024</td> 
+                            <td class="table-td">2</td>
+                            <td class="btn-apr-decl"><button class="approve-bnt" onclick="removeRow(event)">Approved</button> <button class="decline-btn"  onclick="removeRow(event)" >Decline</button></td>
                         </tr>
                         <tr>
-                            <td>Alicia Keys</td>
-                            <td>Marketing Department</td>
-                            <td>Unpaid leave</td>
-                            <td>02.12.2024</td>
-                            <td>09.12.2024</td>
-                            <td>7</td>
-                            <td><button class="approve-bnt" >Approved</button> <button class="decline-btn" >Decline</button></td>
+                            <td class="table-td">Alicia Keys</td>
+                            <td class="table-td">Marketing Department</td>
+                            <td class="table-td">Unpaid leave</td>
+                            <td class="table-td">8 days</td>
+                            <td class="table-td">02.12.2024</td>
+                            <td class="table-td">09.12.2024</td>
+                            <td class="table-td">7</td>
+                            <td class="btn-apr-decl"><button class="approve-bnt" onclick="removeRow(event)">Approved</button> <button class="decline-btn" onclick="removeRow(event)" >Decline</button></td>
                         </tr>
                         <tr>
-                            <td>Marlon Brando</td>
-                            <td>Account Department</td>
-                            <td>Sick leave</td>
-                            <td>01.03.2024</td>
-                            <td>12.03.2024</td>
-                            <td>11</td>
-                            <td><button class="approve-bnt" >Approved</button> <button class="decline-btn" >Decline</button> </td>
+                            <td class="table-td">Marlon Brando</td>
+                            <td class="table-td">Account Department</td>
+                            <td class="table-td">Sick leave</td>
+                            <td class="table-td">17 days</td>
+                            <td class="table-td">01.03.2024</td>
+                            <td class="table-td">12.03.2024</td>
+                            <td class="table-td">11</td>
+                            <td class="btn-apr-decl"><button class="approve-bnt" onclick="removeRow(event)">Approved</button> <button class="decline-btn" onclick="removeRow(event)" >Decline</button> </td>
                         </tr>
                     </tbody>
                 </table>
