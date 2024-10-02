@@ -1,4 +1,30 @@
 
+.container-department{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:start;
+    
+    font-family: 'PT Sans', sans-serif;
+    width: 100%;
+        height: 43em;
+        background: url("./resources/pexels-rdne-7310202.jpg");
+        background-position: center;
+        background-size: 100%;
+
+       
+    }
+
+
+    .manager-panel-department{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        height: 22em;
+        margin-top: 0em;
+        
+    }
+
 .department-members{
     display: flex;
     flex-direction: column;
