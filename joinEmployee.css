@@ -22,10 +22,9 @@
 }
 .add-employee-container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-  align-items: center;
-  padding-top: 4em;
+  justify-content:stretch;
     height: 43em;
     width: 55%;
     background-color: #567C8D;
@@ -40,6 +39,7 @@
     flex-wrap: wrap;
     border-bottom: 2px solid black;
     width: 90%;
+    padding-top: 0.7em;
 }
 
 .employee-form{
@@ -51,6 +51,8 @@
     background-color: #C8D9E6;
     border-radius: 8px;
     width: 80%;
+    margin-left: 7.5em;
+    margin-bottom: 4em;
     
 }
 .gender-and-status{
@@ -59,13 +61,13 @@
     justify-content:space-evenly;
     border-bottom: 2px solid black;
     width: 90%;
-
+    margin-bottom: -1em;
+  
 }
 .gender, .status{
     display: flex;
     flex-direction: row;
- 
-
+   
 }
 
 .choose-file-btn{
@@ -86,3 +88,22 @@
 }
 
 .form-btn:hover {background-color: #567C8D;}
+
+
+.a-min{
+    border-radius: 8px;
+}
+.a-min:hover{background-color: #F5EFEB}
+
+.spec-a-join{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+    flex: 0 0 33.3333%;
+    margin-left: 43em;
+}
+
+.last-fild{
+    padding-top: 1.5em;
+}
