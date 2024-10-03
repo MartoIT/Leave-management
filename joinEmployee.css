@@ -107,3 +107,7 @@
 .last-fild{
     padding-top: 1.5em;
 }
+
+.shadow {
+    box-shadow: 0 0 100px lightblue;
+}
