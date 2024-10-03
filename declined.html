@@ -12,11 +12,6 @@
     <header class="welcome2">
         <div class="telephone"> 
             <span class="tel"> 
-            <!-- <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" 
-            viewBox="0 0 100 100">
-            <path d="M85.81 120H34.19a8.39 8.39 0 0 1-8.38-8.39V8.39A8.39 8.39 0 0 1 34.19 0h51.62a8.39 8.39 0 0 1 8.38 8.39v103.22a8.39 8.39 0 0 1-8.38 8.39zM34.19 3.87a4.52 4.52 0 0 0-4.51 4.52v103.22a4.52 4.52 0 0 0 4.51 4.52h51.62a4.52 4.52 0 0 0 4.51-4.52V8.39a4.52 4.52 0 0 0-4.51-4.52z"/>
-            <path d="M73.7 10.32H46.3L39.28 3.3 42.01.57l5.89 5.88h24.2L77.99.57l2.73 2.73-7.02 7.02zM47.1 103.23h25.81v3.87H47.1z"/></svg>
-            <h3 class="telnumber"> 1-800-555-700</h3> -->
 
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M384 32l128 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L398.4 96c-5.2 25.8-22.9 47.1-46.4 57.3L352 448l160 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-192 0-192 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l160 0 0-294.7c-23.5-10.3-41.2-31.6-46.4-57.3L128 96c-17.7 0-32-14.3-32-32s14.3-32 32-32l128 0c14.6-19.4 37.8-32 64-32s49.4 12.6 64 32zm55.6 288l144.9 0L512 195.8 439.6 320zM512 416c-62.9 0-115.2-34-126-78.9c-2.6-11 1-22.3 6.7-32.1l95.2-163.2c5-8.6 14.2-13.8 24.1-13.8s19.1 5.3 24.1 13.8l95.2 163.2c5.7 9.8 9.3 21.1 6.7 32.1C627.2 382 574.9 416 512 416zM126.8 195.8L54.4 320l144.9 0L126.8 195.8zM.9 337.1c-2.6-11 1-22.3 6.7-32.1l95.2-163.2c5-8.6 14.2-13.8 24.1-13.8s19.1 5.3 24.1 13.8l95.2 163.2c5.7 9.8 9.3 21.1 6.7 32.1C242 382 189.7 416 126.8 416S11.7 382 .9 337.1z"/></svg>
             <h3 class="telnumber"> work life balance</h3>
@@ -63,11 +58,11 @@
                             <th class="table-th">Employee</th>
                             <th class="table-th">Departmnet</th>
                             <th class="table-th">Type of leave</th>
-                            <th class="table-th">Remaining days</th>
+                            <th class="table-th">Reason</th>
                             <th class="table-th">From date</th>
                             <th class="table-th">To date</th>
-                            <th class="table-th">Days</th>
-                            <th class="exit-table">Action  </th>
+                            <th class="table-th">Days declined</th>
+                            <th class="exit-table">Declined  </th>
                             
                         </tr>
                     </thead>
@@ -76,42 +71,33 @@
                             <td class="table-td">John Wick John Wick</td>
                             <td class="table-td">Sales </td>
                             <td class="table-td">Family vacation</td>
-                            <td class="table-td">11 days</td>
+                            <td class="table-td">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac ligula et nunc vulputate suscipit eget eu ipsum.</td>
                             <td class="table-td">25.09.2024</td>
                             <td class="table-td">30.09.2024</td>
                             <td class="table-td">5</td>
-                            <td class="btn-apr-decl"><button class="approve-bnt" onclick="removeRow(event)">Approved</button> <button class="decline-btn" onclick="removeRow(event)">Decline</button></td>
+                            <td class="btn-apr-decl"><svg xmlns="http://www.w3.org/2000/svg" height="48" width="70" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#f50505" d="M32 32C14.3 32 0 46.3 0 64L0 448c0 17.7 14.3 32 32 32s32-14.3 32-32l0-181.7L149.2 96 64 96l0-32c0-17.7-14.3-32-32-32zM405.2 96l-74.3 0-5.4 10.7L234.8 288l74.3 0 5.4-10.7L405.2 96zM362.8 288l74.3 0 5.4-10.7L533.2 96l-74.3 0-5.4 10.7L362.8 288zM202.8 96l-5.4 10.7L106.8 288l74.3 0 5.4-10.7L277.2 96l-74.3 0zm288 192l85.2 0 0 160c0 17.7 14.3 32 32 32s32-14.3 32-32l0-384c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 53.7L490.8 288z"/></svg></td>
                         </tr>
                         <tr>
                             <td class="table-td">Hugh Jackman</td>
                             <td class="table-td">Account Department</td>
                             <td class="table-td">Family vacation</td>
-                            <td class="table-td">6 days</td>
+                            <td class="table-td">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac ligula et nunc vulputate suscipit eget eu ipsum.</td>
                             <td class="table-td">10.04.2024</td>
                             <td class="table-td">12.04.2024</td> 
                             <td class="table-td">2</td>
-                            <td class="btn-apr-decl"><button class="approve-bnt" onclick="removeRow(event)">Approved</button> <button class="decline-btn"  onclick="removeRow(event)" >Decline</button></td>
+                            <td class="btn-apr-decl"><svg xmlns="http://www.w3.org/2000/svg" height="48" width="70" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#f50505" d="M32 32C14.3 32 0 46.3 0 64L0 448c0 17.7 14.3 32 32 32s32-14.3 32-32l0-181.7L149.2 96 64 96l0-32c0-17.7-14.3-32-32-32zM405.2 96l-74.3 0-5.4 10.7L234.8 288l74.3 0 5.4-10.7L405.2 96zM362.8 288l74.3 0 5.4-10.7L533.2 96l-74.3 0-5.4 10.7L362.8 288zM202.8 96l-5.4 10.7L106.8 288l74.3 0 5.4-10.7L277.2 96l-74.3 0zm288 192l85.2 0 0 160c0 17.7 14.3 32 32 32s32-14.3 32-32l0-384c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 53.7L490.8 288z"/></svg></td>
                         </tr>
                         <tr>
                             <td class="table-td">Alicia Keys</td>
                             <td class="table-td">Marketing Department</td>
                             <td class="table-td">Unpaid leave</td>
-                            <td class="table-td">8 days</td>
+                            <td class="table-td">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac ligula et nunc vulputate suscipit eget eu ipsum.</td>
                             <td class="table-td">02.12.2024</td>
                             <td class="table-td">09.12.2024</td>
                             <td class="table-td">7</td>
-                            <td class="btn-apr-decl"><button class="approve-bnt" onclick="removeRow(event)">Approved</button> <button class="decline-btn" onclick="removeRow(event)" >Decline</button></td>
+                            <td class="btn-apr-decl"><svg xmlns="http://www.w3.org/2000/svg" height="48" width="70" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#f50505" d="M32 32C14.3 32 0 46.3 0 64L0 448c0 17.7 14.3 32 32 32s32-14.3 32-32l0-181.7L149.2 96 64 96l0-32c0-17.7-14.3-32-32-32zM405.2 96l-74.3 0-5.4 10.7L234.8 288l74.3 0 5.4-10.7L405.2 96zM362.8 288l74.3 0 5.4-10.7L533.2 96l-74.3 0-5.4 10.7L362.8 288zM202.8 96l-5.4 10.7L106.8 288l74.3 0 5.4-10.7L277.2 96l-74.3 0zm288 192l85.2 0 0 160c0 17.7 14.3 32 32 32s32-14.3 32-32l0-384c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 53.7L490.8 288z"/></svg></td>
                         </tr>
-                        <tr>
-                            <td class="table-td">Marlon Brando</td>
-                            <td class="table-td">Account Department</td>
-                            <td class="table-td">Sick leave</td>
-                            <td class="table-td">17 days</td>
-                            <td class="table-td">01.03.2024</td>
-                            <td class="table-td">12.03.2024</td>
-                            <td class="table-td">11</td>
-                            <td class="btn-apr-decl"><button class="approve-bnt" onclick="removeRow(event)">Approved</button> <button class="decline-btn" onclick="removeRow(event)" >Decline</button> </td>
-                        </tr>
+                       
                     </tbody>
                 </table>
                 
